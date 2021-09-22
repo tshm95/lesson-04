@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap&subset=cyrillic-ext');
+*,           
+*::before,   
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+h1 {
+  font-family: "Creepster", cursive;
+}
+.title h2 {
+  font-family: "Dancing Script", cursive;
+}
+.main-harry p {
+  font-family: "Gideon Roman", cursive;
+}
+.text-news {
+  font-family: "Roboto", sans-serif;
+}
+
+/*------*/
+
+.wrapper {
+  width: 750px;
+  margin: auto;
+}
+
+.container-harry {
+  background: #fff9dc;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.title {
+  text-align: center;
+}
+
+h1 {
+  font-size: 77px;
+  padding-top: 50px;
+  text-shadow: 4px 4px 14px rgb(7, 10, 241);
+}
+
+.title h2 {
+  font-size: 30px;
+  margin-bottom: 90px;
+}
+
+.one {
+  color: #8f8686;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 12px;
+}
+
+.title h3 {
+  font-size: 45px;
+  text-transform: capitalize;
+}
+
+.boy {
+  margin-bottom: 40px;
+}
+
+.letter {
+  color: coral;
+  font-size: 50px;
+}
+
+.harry p {
+  font-size: 19px;
+  text-indent: 15px;
+  line-height: 25px;
+}
+
+.last {
+  padding-bottom: 50px;
+}
+
+/* новостная линия */
+
+.container-news {
+  background: #f1f1f1;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.heading h2 {
+  padding-top: 48px;
+  padding-bottom: 30px;
+  line-height: 38px;
+  word-spacing: 14px;
+  font-size: 38px;
+  font-weight: 300;
+  text-align: center;
+  font-style: normal;
+  color: #0e0e0e;
+}
+
+.heading h3 {
+  padding-bottom: 18px;
+  text-align: right;
+  color: #86898f;
+  font-style: italic;
+  text-align: right;
+}
+
+.moscow {
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: 700;
+  font-style: normal;
+  color: #000;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #0e0e0e;
+  padding-bottom: 10px;
+}
+
+.ronaldo {
+  float: right;
+}
+
+.sheep {
+  float: left;
+}
+
+a {
+  color: rgba(45, 49, 45, 0.5);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.noise {
+  text-decoration: line-through;
+}
+
+.info-text {
+  padding-bottom: 50px;
+}
+
+footer {
+  background: #010144;
+  height: 60px;
+  text-align: right;
+  padding-top: 15px;
+  padding-right: 20px;
+}
+
+.footer a {
+  color: #ffffff;
+  font-size: 18px;
+}
